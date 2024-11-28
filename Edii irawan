@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="id"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Profil Edi Irawan</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&amp;display=swap" rel="stylesheet"> 
+  <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 999;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #ddd;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 150px;
+            margin-right: 20px;
+            float: left;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .social-links img {
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        .testimonial {
+            font-style: italic;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #3498db;
+        }
+
+        .testimonial footer {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        [data-theme="dark"] {
+            background: #333;
+            color: #fff;
+        }
+
+        [data-theme="dark"] header {
+            background: #222;
+        }
+
+        [data-theme="dark"] section {
+            background: #444;
+            color: white;
+        }
+
+        [data-theme="dark"] footer {
+            background: #555;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <header> 
+   <h1>Profil Edi Irawan</h1> 
+   <p>Developer dengan pengalaman dalam pengembangan Web, Aplikasi Mobile, dan Desain Grafis.</p> 
+  </header> <button id="themeToggle">Ganti Tema</button> 
+  <section> 
+   <h2>Tentang Saya</h2> 
+   <img src="link-foto-anda.jpg" alt="Foto Edi Irawan"> 
+   <p>Saya Edi Irawan, seorang developer yang fokus pada web development, aplikasi mobile, dan desain grafis. Saya berkomitmen untuk terus belajar dan mengembangkan keterampilan dalam bidang teknologi. Saya selalu terbuka untuk peluang baru dan siap berkolaborasi dalam proyek menarik.</p> 
+  </section> 
+  <section> 
+   <h2>Minat dan Keterampilan</h2> 
+   <ul> 
+    <li>Pengembangan Web</li> 
+    <li>Pengembangan Aplikasi Mobile</li> 
+    <li>Desain Grafis</li> 
+   </ul> 
+  </section> 
+  <section> 
+   <h2>Testimonial</h2> 
+   <div class="testimonial">
+     "Edi Irawan adalah seorang profesional yang luar biasa. Kerja keras dan dedikasinya membuat setiap proyek berjalan lancar dan sukses." 
+    <footer>
+     - Nama Klien, Posisi
+    </footer> 
+   </div> 
+  </section> 
+  <section> 
+   <h2>Portofolio</h2> 
+   <p>Berikut adalah beberapa proyek yang telah saya kerjakan. Saya selalu berusaha memberikan hasil terbaik dalam setiap proyek untuk memastikan kepuasan klien.</p> 
+   <ul> 
+    <li> <h3>Proyek 1: <a href="https://link-ke-proyek-1.com" target="_blank">Website E-Commerce</a></h3> <p>Deskripsi: Saya mengembangkan website e-commerce untuk sebuah toko online yang menyediakan berbagai produk fashion. Website ini menggunakan teknologi React untuk tampilan dinamis dan Node.js untuk backend. Pengguna dapat melakukan pemesanan, pembayaran, dan pelacakan pesanan dengan mudah.</p> <p>Teknologi: React, Node.js, MongoDB, Stripe API</p> </li> 
+    <li> <h3>Proyek 2: <a href="https://link-ke-proyek-2.com" target="_blank">Aplikasi Mobile Booking</a></h3> <p>Deskripsi: Saya merancang dan mengembangkan aplikasi mobile untuk sistem booking hotel. Aplikasi ini memiliki fitur pencarian hotel, pemesanan kamar, dan pembayaran online. Didesain untuk memberikan pengalaman pengguna yang cepat dan intuitif.</p> <p>Teknologi: Flutter, Firebase, Google Maps API</p> </li> 
+    <li> <h3>Proyek 3: <a href="https://link-ke-proyek-3.com" target="_blank">Sistem Manajemen Tugas</a></h3> <p>Deskripsi: Proyek ini adalah aplikasi web untuk manajemen tugas di perusahaan. Aplikasi ini memungkinkan pengguna untuk menambah, mengedit, dan menghapus tugas, serta memonitor progres dari setiap tugas yang diberikan kepada tim.</p> <p>Teknologi: Angular, Express.js, MySQL</p> </li> 
+    <li> <h3>Proyek 4: <a href="https://link-ke-proyek-4.com" target="_blank">Desain Grafis untuk Branding</a></h3> <p>Deskripsi: Saya merancang logo dan materi branding untuk beberapa perusahaan startup. Desain ini mencerminkan nilai-nilai perusahaan dan menarik perhatian audiens yang tepat.</p> <p>Teknologi: Adobe Illustrator, Adobe Photoshop</p> </li> 
+   </ul> 
+  </section> 
+  <section> 
+   <h2>Kontak</h2> 
+   <p>Email: <a href="mailto:edigmng681@gmail.com">edigmng681@gmail.com</a></p> 
+   <p>Instagram: <a href="https://instagram.com/eddyirwnn_" target="_blank">@eddyirwnn_</a></p> 
+   <p>LinkedIn: <a href="https://linkedin.com/in/edi-irawan" target="_blank">Edi Irawan</a></p> 
+  </section> 
+  <section> 
+   <h2>Ikuti Saya</h2> 
+   <div class="social-links"> <a href="https://instagram.com/eddyirwnn_" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a> <a href="https://linkedin.com/in/edi-irawan" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png" alt="LinkedIn"></a> <a href="https://github.com/ediirwan" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a> 
+   </div> 
+  </section> 
+  <footer> 
+   <p>© 2024 Edi Irawan. All rights reserved.</p> 
+  </footer> 
+  <script>
+        document.getElementById("themeToggle").addEventListener("click", function () {
+            const currentTheme = document.body.dataset.theme;
+            document.body.dataset.theme = currentTheme === "dark" ? "light" : "dark";
+        });
+    </script> 
+ </body>
+</html>
